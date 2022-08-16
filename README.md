@@ -19,7 +19,7 @@ The analysis made use of the following software:
 
 ### Data Source
 
-[The data used in this analysis](./Resources/charity_data.csv) was provided by Alphabet Soup’s business team and contains more than 34,000 organizations that have received funding from Alphabet Soup.
+The data used in this analysis (too large to upload here) was provided by Alphabet Soup’s business team and contains more than 34,000 organizations that have received funding from Alphabet Soup.
 
 The data contained the following columns (here with their meanings included):
 - `EIN`, `NAME`—Identification columns
