@@ -73,10 +73,10 @@ Each attempt was made using a `Sequential` model (from `tensorflow.keras.models`
 
 | Attempt | Nodes per Layer[^nodes] | Layer Activation Function[^activation] |
 | :-:     | :-:                     | :-:                                    |
-|    0    | 80 ; 30                 | ReLu ; ReLu                            |
-|    1    | 80 ; 30                 | ReLu ; ReLu                            |
-|    2    | 90 ; 40                 | ReLu ; ReLu                            |
-|    3    | 80 ; 30 ; 10            | ReLu ; ReLu ; ReLu                     |
+|    0    | 80 ; 30                 | ReLU ; ReLU                            |
+|    1    | 80 ; 30                 | ReLU ; ReLU                            |
+|    2    | 90 ; 40                 | ReLU ; ReLU                            |
+|    3    | 80 ; 30 ; 10            | ReLU ; ReLU ; ReLU                     |
 |    4    | 80 ; 30                 | Tanh ; Tanh                            |
 |    5    | 60 ; 30 ; 5             | ReLU ; Tanh ; Tanh                     |
 |    6    | 1,000 ; 300 ; 50        | ReLU ; Tanh ; Tanh                     |
