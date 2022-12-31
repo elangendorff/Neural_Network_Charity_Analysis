@@ -57,7 +57,7 @@ All machine learning attempts after `attempt 0` were also subject to the followi
   - There were none, so nothing was actually dropped, but the consideration _was_ made.
 - Collect rarely occurring values in the `AFFILIATION` column into a single `Other` category.
 - Convert `INCOME_AMT` to a numeric column.
-  - Values were stored as `string`s representing numeric intervals. Each was converted to an `integer` whose values was the (approximate) midpoint of the interval (with the exception of the `50m+` category, which was given a value of `50,000,000`).
+  - Values were stored as `string`s representing numeric intervals. Each was converted to an `integer` whose value was the (approximate) midpoint of its interval (with the exception of the `50m+` category, which was given a value of `50,000,000`).
 - Drop the `SPECIAL_CONSIDERATIONS` column.
   - It is a binary column in which one of the values appeared less than 0.1% of the time. It was removed primary to see if the removal showed a marked improvement in the predictions' accuracy scores.
 - Drop the `STATUS` column.
